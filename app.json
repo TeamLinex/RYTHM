@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/DevilsHeavenMF",
-    "repository": "https://github.com/RahulSingh1025/RYTHM",
+    "repository": "https://github.com/TeamLinex/RYTHM",
     "success_url": "https://t.me/anonymous_was_bot",
     "env": {
         "API_ID": {
