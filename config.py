@@ -17,6 +17,7 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamLinex/RYTHM")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "master")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
+LOG_GROUP_ID = list(map(int, getenv("OWNER_ID").split()))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "godzilla_chatting")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "BotDuniyaXD")
 
